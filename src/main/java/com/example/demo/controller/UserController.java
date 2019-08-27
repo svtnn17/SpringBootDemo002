@@ -28,6 +28,10 @@ public class UserController {
         return "user/list";
     }
 
+    public void test2(){
+        System.out.println("test.....");
+    }
+
     /***
      * 跳转到新增用户界面
      * @param user
